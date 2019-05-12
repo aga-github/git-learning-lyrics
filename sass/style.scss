@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+
+$fonts: 'Open Sans', sans-serif;
+$aga-d-grey: #313234; 
+$aga-l-grey: #393b3a;
+$top-belt: #A0A0A0;
+$maersk-blue: #00c7e8;
+$mint: #E4F1FE;
+
+body {
+    margin: 0 auto;
+    font-family: $fonts;
+    background-color: $mint;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+
+.part {
+    h1 {
+        color: $maersk-blue;
+    }
+    p {
+        color: $aga-l-grey;
+    }
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    color: white;
+    background: $top-belt;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    }
+
