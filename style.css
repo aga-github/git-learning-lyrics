@@ -1,3 +1,11 @@
-body {
-    display: flex;
-}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+body { display: flex; margin: 0 auto; font-family: "Open Sans", sans-serif; background-color: #E4F1FE; }
+
+.container { width: 100%; max-width: 1200px; margin: 0 auto; text-align: center; background-color: yellow; }
+
+.part h1 { color: #00c7e8; }
+
+.part p { color: #393b3a; }
+
+/* FOOTER */
+.footer { width: 100%; color: orange; background: #A0A0A0; font-size: 10px; margin-top: 30px; display: inline-block; text-align: center; }
